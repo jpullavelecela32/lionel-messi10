@@ -1,0 +1,85 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+  font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 25px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+html {
+  background-color: #8eecf5;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+}
+img {
+  display: block;
+  margin: 2 auto;
+}
+:root {
+    --color-background: #8d99ae;
+    --color-text: #a2d2ff;
+    --color-accent-1: #ffffff;
+    --color-accent-2: #a3c4f3;
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+h1 {
+    color: var(--color-accent-2);
+}
+
+p {
+    color: var(--color-text);
+}
+
+a {
+    color: var(--color-accent-1);
+}
+
+blockquote {
+    border-left: 5px solid var(--color-accent-1);
+}
+/* Mobile devices */
+@media (min-width: 200px) {
+  html {
+    font-size: 25px;
+  }
+  /* styles for mobile devices */
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+  html {
+    font-size: 40px;
+  }
+  /* styles for tablets */
+}
+
+/* Laptops and desktops */
+@media (min-width: 1024px) {
+html {
+  font-size: 45;
+}
+  /* styles for laptops and desktops */
+}
